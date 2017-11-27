@@ -1,5 +1,7 @@
 #Chapter 2 Guide to CSS Styles
 
+
+
 ##Implementing Inline CSS Styles
 
 This guide walks through how to use Inline CSS styles. This approach allows developers to add styles to a specific element on a web site. While this is an easy approach it's main purpose is for testing out styles, using inline CSS styles in a production application is considered a poor practice.

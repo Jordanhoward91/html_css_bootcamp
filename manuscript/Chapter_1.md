@@ -1,5 +1,7 @@
 #Chapter 1 Guide to HTMl
 
+
+
 ##Tools We'll Use in the Course
 
 In this guide I walk through the tools that we'll use in this course, including a discussion on what IDEs and Text Editors are best for HTML/CSS Development. I also examine the Espresso editor that I will use for demonstration purposes.

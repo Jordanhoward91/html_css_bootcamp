@@ -1,5 +1,7 @@
 #Chapter 3 Guide to HTML Tables
 
+
+
 ##Introduction to HTML Tables
 
 This guide walks through: what HTML tables are, how they should be used, and the basic syntax.
