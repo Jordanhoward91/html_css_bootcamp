@@ -1,1 +1,9 @@
 Chapter_1.md
+Chapter_2.md
+Chapter_3.md
+Chapter_4.md
+Chapter_5.md
+Chapter_6.md
+Chapter_7.md
+Chapter_8.md
+Chapter_9.md

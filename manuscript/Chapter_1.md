@@ -1,4 +1,4 @@
-#Chapter 1 Guide to HTMl
+#Chapter 1 Guide to HTML
 
 ###Tools We'll Use in the Course
 
