@@ -1,7 +1,5 @@
 #Chapter 6 Project: Create the Pinterest Homepage
 
-
-
 ##Pinterest Project Overview and Instructions
 
 This guide describes the website that we'll be building, including a discussion of the tools to utilize and some recommendations on how to build out the project using HTML5, CSS3, and Font Awesome icons.
@@ -23,8 +21,6 @@ At this point in time, don't worry about responsiveness though, as we'll talk ab
 Good luck!
 
 I'd recommend you watch the solution videos after you try your best with this project.
-
-
 
 ##Project Solution: Creating the HTML structure for the Pinterest homepage
 
@@ -112,8 +108,6 @@ In the real world though, you'll have a database query that pulls in images and 
 If you refresh the browser, you'll see all images and text, one below the other.
 
 In the next few guides, we'll work on styles.
-
-
 
 ##Project Solution: Customizing the Navigation Header Styles with CSS
 
@@ -217,8 +211,6 @@ I think the output is getting us closer to the design we want.
 
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/prework/Pinterest+Project/Project+Solution+-+Customizing+the+Navigation+Header+Styles+with+CSS/image2.png)
 
-
-
 ##Project Solution: Integrating Font Awesome for Website Icons
 
 In this guide we'll walk through how to integrate the Font Awesome library in order to add icons to the Pinterest homepage website.
@@ -258,8 +250,6 @@ The output looks like this:
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/prework/Pinterest+Project/Project+Solution+-+Integrating+Font+Awesome+for+Website+Icons/image2.png)
 
 Though they are not styled the way we want, the icons are nevertheless there.
-
-
 
 ##Project Solution: Styling Font Awesome Icons
 
@@ -301,8 +291,6 @@ This gives us the effect we want.
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/prework/Pinterest+Project/Project+Solution+-+Styling+Font+Awesome+Icons/image3.png)
 
 I think the headers look nice now.
-
-
 
 ##Project Solution: Styling Pinterest Pins
 
@@ -427,8 +415,6 @@ That's it! Let's see how it looks in the browser now.
 I think it looks great!
 
 If you look at the images, it may look like we're using a break tag between the image and text, but in reality, this is nothing but a border that we've included at the bottom of every image.  This is a better way to implement because sometimes we may just have images without any text. In such a case, the break line is unnecessary, and can even look a little out of place. This is why we are accomplishing the same effect with a border, instead of using a break line.
-
-
 
 ##Project Solution: Pinterest Homepage Summary
 
