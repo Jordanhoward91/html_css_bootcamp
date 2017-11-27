@@ -1,7 +1,5 @@
 #Chapter 3 Guide to HTML Tables
 
-
-
 ##Introduction to HTML Tables
 
 This guide walks through: what HTML tables are, how they should be used, and the basic syntax.
@@ -54,8 +52,6 @@ Since I want this to be an admin dashboard, I'll also have edit and delete items
 
 So, this is how you create tables in HTML.
 
-
-
 ##How to Style HTML Headers
 
 Learn how to customize the look and feel of HTML table header, including how to select the color and background components.
@@ -101,8 +97,6 @@ The output is:
 If you see the default border lines are gone, and that's good!
 
 So, that's how you can style table headings. Play around these attributes a little bit more to get familiar with them.
-
-
 
 ##Styling Table Rows
 
@@ -172,8 +166,6 @@ Also, there is a significant difference based on the order. `<th>` is more speci
 
 I think this is pretty cool!
 
-
-
 ##Working with Column Spans
 
 This guide walks through how to customize the column spans to alter the structure of a table.
@@ -235,8 +227,6 @@ The corresponding code is:
 ```
 
 This is a much better way of displaying the information than simply putting a value of zero in every column. In this sense, `colspan` gives you a ton of flexibility.
-
-
 
 ##How to Customize Row Sizes in HTML Tables
 

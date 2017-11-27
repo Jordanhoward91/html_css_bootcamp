@@ -1,7 +1,5 @@
 #Chapter 5 Project: Create the Google Homepage
 
-
-
 ##Google Homepage Project Overview and Instructions
 
 This guide gives an overview of the project requirements, including instructions for how to build the Google homepage with HTML and CSS.
@@ -17,8 +15,6 @@ That said, let's see what we're not going to build.  First off, we're not going 
 So, we're going to build content in the middle of the page that includes a text field. This is not our custom text field, so we'll have to override it a little bit. Also, we're going to create two nice rounded buttons using custom CSS. Next, we are going to create a header that sits at the top right hand corner of the page, and a sticky footer that contains links to help users navigate from page to page.
 
 So, try to do this on your own, and in the next few videos, we'll see what my implementations looks like. Good luck!
-
-
 
 ##Project Solution: Building the HTML Structure
 
@@ -137,8 +133,6 @@ If you refresh your browser, you'll see this logo.
 
 So, everything is good now!
 
-
-
 ##Project Solution: Integrating the CSS Header and Content Styles
 
 This lesson examines how the CSS header and content styles can be implemented in order to build out the navigation component for the Google homepage.
@@ -252,8 +246,6 @@ Now, the output looks much closer to the original one.
 
 We'll continue styling in the next video.
 
-
-
 ##Project Solution: Building the Styles for the Buttons and Footer
 
 This guide walks through how to create the styles for the Google homepage buttons and footer.
@@ -338,8 +330,6 @@ If we check the browser now, it looks like this:
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/prework/Google+Homepage+Project/Project+Solution+-+Building+the+Styles+for+the+Buttons+and+Footer/image2.png)
 
 And this is quite close to what we want.
-
-
 
 ##Project Solution: CSS Hover Effects for Links
 
@@ -440,8 +430,6 @@ These changes look cool on the browser.
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/prework/Google+Homepage+Project/Project+Solution+-+CSS+Hover+Effects+for+Links/image3.png)
 
 We have a nice gray hover effect now. Try removing the white border from our `.button` style, and you'll see that the button looks a little ugly now.  This is why we have that border color, even if it sounds redundant.  With this, we're almost done with the site.
-
-
 
 ##Project Solution: JavaScript Auto Focus and Summary
 

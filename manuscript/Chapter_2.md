@@ -1,7 +1,5 @@
 #Chapter 2 Guide to CSS Styles
 
-
-
 ##Implementing Inline CSS Styles
 
 This guide walks through how to use Inline CSS styles. This approach allows developers to add styles to a specific element on a web site. While this is an easy approach it's main purpose is for testing out styles, using inline CSS styles in a production application is considered a poor practice.
@@ -83,10 +81,7 @@ This style can be nested inside another inline style as well.
 
 So, this is how you do inline styling in HTML.
 
-
-
 ##Using Embedded CSS Styles
-
 
 Learn how to utilize embedded stylesheets to organize your styles in the same file as the HTML code. This is a helpful tool when building websites, however this is still considered a poor practice for production applications and should only be used for debugging and development.
 
@@ -144,7 +139,6 @@ In general, it's a CSS practice to put the code in a single line, if you have on
 ```
 
 In the next video, we'll talk about using external stylesheets.
-
 
 ##Using CSS Best Practices with External Stylesheets
 
@@ -213,7 +207,6 @@ Let's say you move your `styles.css` to another subfolder inside `CSS` and call 
 ```
 
 So, that is how you can use external stylesheets, and for the rest of this course, we'll be using only this type of CSS file.
-
 
 ##How to Use CSS Selectors
 
@@ -350,8 +343,6 @@ You can get as granular as you want, and apply a specific style to any particula
 
 So, that is how we can use selectors in HTML and CSS, and apply specific style to them.
 
-
-
 ##Using CSS Animations
 
 Learn how to use the powerful Webkit animation library to add animated background colors to HTML div elements on a page. I also discuss the design best practices associated with when to use this approach.
@@ -417,8 +408,6 @@ Lastly, we'll add something called a `@ keyframe`. This will also have the same 
 Refresh the web page, and you can see the color fading from dark grey to light grey, and that's really cool. If you can't see it clearly, try changing the background color to something bright, though I won't recommend such a color in a real-time application.
 
 You can try this animation with other attributes such as text, padding and just about anything else you like. Just a note here - you need CSS 3.0 or higher or animations to work.
-
-
 
 ##How to Add a Background Image to a Website
 
@@ -491,8 +480,6 @@ So, now you know how to grab an image and how to use it as a backdrop for a web 
 
 - [Tesla Image] (https://commons.wikimedia.org/wiki/File:Five_Tesla_Model_S_electric_cars_in_Norway.jpg)
 
-
-
 ##Adding CSS Border Styles to HTML Elements
 
 In this guide we'll walk through how to add custom border elements to HTML page elements, including how to give a custom look and feel to elements in addition to working with standard border styling.
@@ -540,8 +527,6 @@ Likewise, we can also have a border on the right and at the bottom to give a cup
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/HTML+CSS+images/Guide+to+CSS+Styles/Adding+CSS+Border+Styles+to+HTML+Elements+%23+496/image3.png)
 
 I think that's pretty cool!
-
-
 
 ##Rounding Div Corners with Border Radius Styles
 
@@ -609,8 +594,6 @@ Now, we know more about a great tool called border-radius, and we've implemented
 
 - [Border-Radius Generator](http://border-radius.com/)
 
-
-
 ##Customizing Height and Width Attributes in CSS
 
 This guide explains how to customize the height and width properties of div elements using custom CSS styles.
@@ -656,8 +639,6 @@ However, what would happen is our text would be right at the top, and we'll have
 This isn't so nice, so I'm bringing back our padding. Nevertheless, it's good to know your options.
 
 So, this is how you can use height and width in CSS.  
-
-
 
 ##How to Implement Custom Fonts in HTML and CSS
 
@@ -706,8 +687,6 @@ So, this is how we can use custom fonts on our web page.
 ## Resources
 
 - https://fonts.google.com
-
-
 
 ##How to Add Custom Font Styles in CSS
 
@@ -762,8 +741,6 @@ The last one is `text-shadow`, that will give a shadow effect to the chosen word
 ```
 
 So, that's how you can style your fonts using CSS.
-
-
 
 ##How to Properly Center Div Elements on a Page
 
@@ -858,8 +835,6 @@ Now, if you see, the items are centered, regardless of the size of the screen. F
 
 So, this is one of the best ways to center elements. It's a good idea to save this code, so you can use it when you're building your own applications in the future.
 
-
-
 ##Working with CSS Pseudo Class Selectors
 
 In this lesson we will walk through CSS pseudo class selectors to implement custom styles based on stages of the user's interaction.
@@ -930,8 +905,6 @@ a:active {
 Each of these states will vary depending on how the user is interacting with the webpage.
 
 So, this is how you can work with pseudo-class selectors.
-
-
 
 ##Implementing Ease In Animations with CSS
 
@@ -1010,8 +983,6 @@ If you refresh, you can see a nice fade-out effect, and the transition is smooth
 
 The above code is only for changing the background color. If you want the same effect for all your elements, you can simply change `background-color` to `all`. This will remove the white fade-in effect and will be just a mild transition to green.
 
-
-
 ##Customizing Bullet Points Using CSS
 
 Learn how to change the look and feel of bullet points (ul items), including various styles that can be selected instead of the default disc option.
@@ -1033,8 +1004,6 @@ As a first step, we'll create some padding on the left side, of about 40px.  The
 That's it. I think our bullets look neat now.
 
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/HTML+CSS+images/Guide+to+CSS+Styles/Customizing+Bullet+Points+Using+CSS+%23+504/image1.png)
-
-
 
 ##Using the CSS Float Property to Align Page Elements
 

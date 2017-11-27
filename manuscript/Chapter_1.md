@@ -1,7 +1,5 @@
 #Chapter 1 Guide to HTMl
 
-
-
 ##Tools We'll Use in the Course
 
 In this guide I walk through the tools that we'll use in this course, including a discussion on what IDEs and Text Editors are best for HTML/CSS Development. I also examine the Espresso editor that I will use for demonstration purposes.
@@ -102,9 +100,7 @@ Most of the meta-data was generated dynamically by rails, but we can use them in
 
 If you're building out a website, you need to add these meta-data information, as that's the only way your website is going to be found.  If you're interested, you can go to different websites and see their source by right-clicking on the page. This should give you an idea of the different tags that can come under the `<head>` tag.  Just remember, none of this information will be visible to the users or visitors.
 
-
 ##Creating Page Components with the Div Tag
-
 
 This guide examines one of the tools that you will use constantly when working with HTML projects: the <div> tag. In this material you will learn how to structure a site and organize page components using the div tag syntax.
 
@@ -156,7 +152,6 @@ Though we have the two sentences on two different lines, they are displayed on t
 Cool, right?
 In short, `<div>` tags are one of the most important tags, and you'll be using a lot of them while coding. It's a great way to organize your structure and compartmentalize different elements.  Also,  it's the best choice when you want to have content on different lines. Lastly, it's perfectly fine and quite common to have `<div>` tags nested inside other `<div>` tags.
 
-
 ##Implementing Inline Components with the Span Tag
 
 This guide explains how to use the <span> tag to customize the look and feel of inline content and organize code components inside of divs.
@@ -207,7 +202,6 @@ In short, `<span>` allows you to select some parts of the sentence and change it
 
 This is definitely not what we want. All that we wanted to do was to change the style of a few words within a sentence, and for this, `<span>` is the right tag.
 
-
 ##Integrate Headings into Web Pages
 
 In this guide you will learn how to add headings to a web site, including working with all the heading options that will automatically alter the size and emphasis for content.
@@ -230,7 +224,6 @@ One more thing about these tags is they all start in a new line, so in this sens
 
 So, if you put anything inside a heading tag, it'll be on a line by itself.
 
-
 ##Using Multi Line Content with Paragraph Tags
 
 This guide explains how you can add multi line content into a website by implementing paragraph (<p>) tags into a website.
@@ -249,7 +242,6 @@ If you see this on the browser, you'll notice a little bit of padding around you
 
 This tag also comes handy when you want to have a bunch of sentences like your typical paragraph, as you can see the same structure in your browser too.
 
-
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/HTML+CSS+images/paragraph-padding.png)
 
 Such a readable structure is vital for any corporate website or blog that you want to create.  You can now add as many paragraphs as you want.
@@ -259,7 +251,6 @@ Also, it's a good idea to have the opening and closing tag on a new line, just l
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/HTML+CSS+images/%3Cp%3E-on-new-line.png)
 
 So, this is all about paragraph tags, and they are fairly straightforward. Just remember, it comes with its own padding and new line character.
-
 
 ##Working with HTML Hyperlinks
 
@@ -299,7 +290,6 @@ That said, there are some situations when I don't use it.  Typically, when a use
 
 To recap, we use a tag called `<a href>` when we have to include links to a web content.  The most important attribute of this tag is `target`, and you typically use this when you include a link that'll take the user to a different website. However, if they're navigating within the same website, you can skip this option.
 
-
 ##Adding Page Breaks with the Horizontal Rule Tag
 
 This guide shows you how to add a horizontal rule to a web page that separate page components with a horizontal line.
@@ -315,8 +305,6 @@ If you refresh the browser, you can see the horizontal line.
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/HTML+CSS+images/horizontal-line.png)
 
 However, this line that comes by default, doesn't look all that great. This is why tools like Bootstrap and Foundation offer different styles.  They may be thicker, have a different color or could have a subtler feel to it. This way you have some more options for designing your web page.
-
-
 
 ##Integrating Line Breaks into HTML Pages
 
@@ -355,8 +343,6 @@ The output will be:
 However, it is bad practice to force a line break inside the heading tag. In fact, I've never see a production site that does this.
 
 Personally too, I use `<br>` only rarely because I don't find the need to use it often.
-
-
 
 ##Creating HTML Numbered Lists
 
@@ -401,8 +387,6 @@ You can also have nested tags inside your `<li>` tag. Let's say, you want to lin
 ```
 
 So, anytime you want to have an ordered list of items, use the tag `<ol>`, and list each element within a nested `<li`> tag.
-
-
 
 ##Working with Bullet Point Lists in HTML
 
@@ -464,8 +448,6 @@ circle - a bullet point that looks like an empty circle. Though it is similar to
 
 So, that's all about the `<ul>` tag.
 
-
-
 ##Working with Bold HTML Styles
 
 This guide explains how to make text bold by using the <b> and <strong> HTML tags, including walking through when you should choose one tag over the other.
@@ -490,8 +472,6 @@ Alternately, you can also use a tag called `<strong>` instead of `<b>`. If you r
 
 Also, the `<strong>` tag is relatively new, so it won't work in browsers that are more than a decade old, like IE 6. So, if you're building for older browsers, always use `<b>` tag.
 
-
-
 ##Using the Italic Style for Text
 
 This guide walks through how to add italics to text components using multiple HTML5 style tag options.
@@ -503,8 +483,6 @@ This guide walks through how to add italics to text components using multiple HT
 ```
 
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/HTML+CSS+images/italics.png)
-
-
 
 ##Comprehensive List of HTML Style Tags
 
@@ -520,7 +498,6 @@ Let's start by creating an unordered list *(bullet point list)* using the tag `<
 </ul>
 ```
 
-
 ### Mark Style
 
 The first style is going to be the **marked** text tag, you can use this tag to highlight a particular word, phrase or value.  The tag for this style will be `<mark>`.
@@ -532,7 +509,6 @@ The first style is going to be the **marked** text tag, you can use this tag to 
 </ul>
 ```
 
-
 ### Small Style
 
 The next style is the **small** text tag, `<small>`, this style will make a particular word smaller in size.
@@ -541,7 +517,6 @@ The next style is the **small** text tag, `<small>`, this style will make a part
 <li>The <small>small</small> text tag</li>
 ```
 
-
 ### Deleted Style
 
 The next one is the **deleted** text tag, represented by the tag `<del>`. This tag will have a line right through the word to show that it is deleted. A great an example of when you could use this is for teachers. You can use this style when you want to show students the right way to spell a word. You can delete the wrongly-spelt word with this tag, and insert the right spelling.
@@ -549,7 +524,6 @@ The next one is the **deleted** text tag, represented by the tag `<del>`. This t
 ```html
 <li>The <del>deleted</del> text tag</li>
 ```
-
 
 ### Inserted Style
 
@@ -567,7 +541,6 @@ The next one is **subscript**, and the tag for this is `<sub>`. This tag is usef
 <li>The <sub>subscript</sub> text tag</li>
 ```
 
-
 ### Superscript Style
 
 As you might imagine, similar to subscript, there is a **superscript** tag, represented by the tag `<sup>`. This tag raises the word or number by a few pixels, and is typically used for representing exponents.
@@ -578,7 +551,6 @@ As you might imagine, similar to subscript, there is a **superscript** tag, repr
 
 **Both the subscript and superscript tags are quite handy for mathematical expressions. They are also easy to represent when compared to using CSS styling.**
 
-
 ### Pre Style
 
 The next tag gives us the ability to put in a programming code. It's called the code or `pre` tag, and is represented by `<pre>`. This tag converts the word into a code-like font such as Courier. Also, it pushes the text to a new line.
@@ -588,7 +560,6 @@ The next tag gives us the ability to put in a programming code. It's called the 
 ```
 
 I use this tag quite a bit to show demos to my clients.
-
 
 ### Quotation Style
 
@@ -603,8 +574,6 @@ If you're thinking it's easier to use quotes instead of the tag, you're probably
 * * *
 
 Remember, each of these above styles can be implemented using CSS, and we'll see how to do that later.  For now though, it's good to know the different options you have.
-
-
 
 ##How to Add Images to Websites
 
@@ -659,7 +628,6 @@ The next option we're going to talk about in this video is the `alt` option. It 
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Mount_Kilimanjaro_Dec_2009_edit1.jpg" width="800" alt="Kilimanjaro">
 </div>
 ```
-
 
 ##Mapping Links on Images
 
@@ -737,8 +705,6 @@ You can see the circular area it covers.
 
 I think this is really cool, as you can get to three different sites, simply by clicking on three different areas within an image. This can be particularly useful when you can't use JavaScript for a website, and yet you want users to click on images. I had to work on a similar project in the past, where the client's platform would not allow me to use JavaScript. Still, I had to make every item from a product catalog image go to that particular product's URL page. I did this using the `<map>` tag, so it might come handy for you too when you start doing projects like this.
 
-
-
 ##How to work with Custom Tags in HTML
 
 This guide walks through how to use custom HTML tags that will allow for explicitly declaring how your code is organized.
@@ -762,7 +728,6 @@ Since we're not using a standard tag, you change `<nav>` to `<widget>` or just a
 One thing you need to keep in mind here. If you're working for a new client who doesn't know you or trust you yet, there is always a chance for them to put your code through a HTML validator. If that happens, custom tags will break a lot of validation because these validators only pass standard tags.
 
 However, this doesn't mean you shouldn't use these tags at all, as many clients, won't bother much about the code as long as the functionality is good. In such cases, these custom tags can give you a nice structure, and can make your code more readable.
-
 
 ##Adding Comments to HTML Code
 
@@ -799,8 +764,6 @@ This doesn't mean comments are bad. In fact, they are a good way to bring attent
 ```
 
 In short, use comments sparingly and only in places where it makes sense.
-
-
 
 ##Guide to Using Web Developer Tools
 
@@ -840,8 +803,6 @@ CSS can be confusing to start with. It's best to read it from top to bottom, as 
 
 So, that is an introduction to know how to use web developer tools inside a browser.
 
-
-
 ##Working with HTML IDs
 
 This guide examines how to set and work with an HTML ID, this is a key concept to learn because IDs will be one of the ways that you can select page elements to apply styles.
@@ -867,8 +828,6 @@ If you open that page on a browser, you can see the ID associated with it.
 These IDs give us a granular level of control, so we can make changes to specific elements.
 
 So, this is how we can add IDs to HTML elements.
-
-
 
 ##Working with HTML Classes
 

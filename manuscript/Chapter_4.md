@@ -1,7 +1,5 @@
 #Chapter 4 Guide to HTML Forms
 
-
-
 ##Introduction to HTML forms
 
 This guide walks through HTML form basics, including a discussion on how forms work and what code needs to be implemented for a basic form structure.
@@ -53,8 +51,6 @@ Inside this form,  we're going to create a "Submit" button, just for a demo. Thi
 ```
 
 So, this is the form skeleton.  
-
-
 
 ##Working with HTML Text Input Fields
 
@@ -149,8 +145,6 @@ Let's say we didn't do any validation on our server side. You can right-click on
 
 This way, you can change your browser code to the way you want. This is also why it's important to have server-side validations too.
 
-
-
 ##Guide to Text Area HTML Field
 
 This guide gives a step by step set of instructions for how to add HTML text area fields to a form, including an explanation on how to customize the size of text area fields.
@@ -185,8 +179,6 @@ This is also something you should keep in mind while designing your page. Also, 
 
 However, the look and feel may change from browser to browser.
 
-
-
 ##How to Use HTML Form Checkboxes
 
 In this guide you will learn how to use HTML checkboxes into web forms to allow users to select multiple items on a form.
@@ -214,8 +206,6 @@ Obviously, you can select more than one option, as checkboxes are meant for that
 
 So, this is how you can create checkboxes in HTML.
 
-
-
 ##Working with HTML Form Radio Buttons
 
 This guide gives a step by step set of instructions for how to integrate radio buttons into an HTML form. This will allow users to select boolean value types.
@@ -237,8 +227,6 @@ The output will be:
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/HTML+CSS+images/Guide+to+HTML+Forms/Working+with+HTML+Form+Radio+Buttons+%23+524/image1.png)
 
 So, this is how you can create radio buttons in HTML.
-
-
 
 ##How to Use Select Boxes in an HTML Form
 
@@ -282,8 +270,6 @@ If you're thinking this is rare, you're mistaken, because there are many situati
 In many ways, this is nothing but a styled version of our dropdown box.
 
 So, that's your introduction to select boxes.
-
-
 
 ##How to Group Drop Down Form Elements into Categories
 
@@ -333,8 +319,6 @@ Ensure that each of these values has a unique name, as that's important from a s
 
 So, this is how you can organize your options in a dropdown box.
 
-
-
 ##Working with HTML Form Calculated Fields
 
 This guide examines the HTML 5 calculated field element that will perform math on form element values, this includes a basic project example.
@@ -377,8 +361,6 @@ HTML5 parses the integer value of these fields and adds them up, to give us a fi
 One thing to note is this element may not be supported by older browsers, typically anything below IE 9.0.
 
 So, this is how you can calculate values dynamically in HTML.
-
-
 
 ##How to Use HTML Entities for Custom Character Values
 
