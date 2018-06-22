@@ -450,7 +450,7 @@ So, that's all about the `<ul>` tag.
 
 ## Working with Bold HTML Styles
 
-This guide explains how to make text bold by using the <b> and <strong> HTML tags, including walking through when you should choose one tag over the other.
+This guide explains how to make text bold by using the `<b>` and `<strong>` HTML tags, including walking through when you should choose one tag over the other.
 
 In this section, we are going through styling choices, and in this video, we are going to see how to add emphasis or bold styling to content.
 
@@ -641,7 +641,7 @@ To do that, let's create a `<div>` and an image tag. Here, we'll use a relative 
 
 ```html
 <div>
-  <img scr="duck.jpg">
+  <img src="duck.jpg">
 </div>
 ```
 
@@ -649,7 +649,7 @@ You can add width, height and alt options, as with the previous video.  Now, let
 
 ```html
 <div>
-  <img scr="duck/duck.jpg" width="145" height="125" alt="Cool Duck">
+  <img src="duck/duck.jpg" width="145" height="125" alt="Cool Duck">
 </div>
 ```
 
@@ -658,7 +658,7 @@ Next, we'll see how to make images clickable. One way is to wrap it inside a `<a
 ```html
 <div>
   <a href="http://devcamp.com">
-  <img scr="duck/duck.jpg" width="145" height="125" alt="Cool Duck">
+  <img src="duck/duck.jpg" width="145" height="125" alt="Cool Duck">
 </div>
 ```
 
@@ -667,7 +667,7 @@ There is also another way to do it, and this is to use an option called `usemap`
 ```html
 <div>
   <a href="http://devcamp.com">
-  <img scr="duck/duck.jpg" width="145" height="125" alt='Cool Duck' usemap="#ducklinks">
+  <img src="duck/duck.jpg" width="145" height="125" alt='Cool Duck' usemap="#ducklinks">
 </div>
 ```
 
