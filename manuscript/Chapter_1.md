@@ -1,6 +1,6 @@
-#Chapter 1 Guide to HTML
+# Chapter 1 Guide to HTML
 
-##Tools We'll Use in the Course
+## Tools We'll Use in the Course
 
 In this guide I walk through the tools that we'll use in this course, including a discussion on what IDEs and Text Editors are best for HTML/CSS Development. I also examine the Espresso editor that I will use for demonstration purposes.
 
@@ -18,7 +18,7 @@ However, this is a paid tool, so I won't say you absolutely need it for this cou
 
 Besides these two tools, you can use other editors too such as Text Wrangler and Visual Studio, though I wouldn't recommend Visual Studio simply because it comes with a ton of built-ins that can be quite confusing.  Notepad ++ is a good choice too, if you're using PC. It completely depends on what you like and feel comfortable. During the rest of this course, I'll be doing HTML demos on Espresso, but feel free to pick your tool.
 
-##Basic HTML Website Structure
+## Basic HTML Website Structure
 
 This guide explains how to build a basic HTML website, including the HTML5 syntax that works with all modern browsers.
 
@@ -51,7 +51,7 @@ Also, HTML doesn't recognize end of line characters, so you can have line breaks
 
 So, to recap, you start off with your declaration where you declare your `DOCTYPE`. Then, have an opening and closing `<html>`  tag to tell the browser that it has to process all the content inside these tags. Inside the `<html>` tags, you can have `<head>` and `<body>` tags that'll contain all your content.
 
-##Working with the HTML Head Tag
+## Working with the HTML Head Tag
 
 This tutorial explains how to use the HTML <head> tag to encapsulate meta data that is processed by the browser, including the website title, SEO data, and encoding.
 
@@ -100,7 +100,7 @@ Most of the meta-data was generated dynamically by rails, but we can use them in
 
 If you're building out a website, you need to add these meta-data information, as that's the only way your website is going to be found.  If you're interested, you can go to different websites and see their source by right-clicking on the page. This should give you an idea of the different tags that can come under the `<head>` tag.  Just remember, none of this information will be visible to the users or visitors.
 
-##Creating Page Components with the Div Tag
+## Creating Page Components with the Div Tag
 
 This guide examines one of the tools that you will use constantly when working with HTML projects: the <div> tag. In this material you will learn how to structure a site and organize page components using the div tag syntax.
 
@@ -152,7 +152,7 @@ Though we have the two sentences on two different lines, they are displayed on t
 Cool, right?
 In short, `<div>` tags are one of the most important tags, and you'll be using a lot of them while coding. It's a great way to organize your structure and compartmentalize different elements.  Also,  it's the best choice when you want to have content on different lines. Lastly, it's perfectly fine and quite common to have `<div>` tags nested inside other `<div>` tags.
 
-##Implementing Inline Components with the Span Tag
+## Implementing Inline Components with the Span Tag
 
 This guide explains how to use the <span> tag to customize the look and feel of inline content and organize code components inside of divs.
 
@@ -202,7 +202,7 @@ In short, `<span>` allows you to select some parts of the sentence and change it
 
 This is definitely not what we want. All that we wanted to do was to change the style of a few words within a sentence, and for this, `<span>` is the right tag.
 
-##Integrate Headings into Web Pages
+## Integrate Headings into Web Pages
 
 In this guide you will learn how to add headings to a web site, including working with all the heading options that will automatically alter the size and emphasis for content.
 
@@ -224,7 +224,7 @@ One more thing about these tags is they all start in a new line, so in this sens
 
 So, if you put anything inside a heading tag, it'll be on a line by itself.
 
-##Using Multi Line Content with Paragraph Tags
+## Using Multi Line Content with Paragraph Tags
 
 This guide explains how you can add multi line content into a website by implementing paragraph (<p>) tags into a website.
 
@@ -252,7 +252,7 @@ Also, it's a good idea to have the opening and closing tag on a new line, just l
 
 So, this is all about paragraph tags, and they are fairly straightforward. Just remember, it comes with its own padding and new line character.
 
-##Working with HTML Hyperlinks
+## Working with HTML Hyperlinks
 
 This guides examines how to add HTML hyperlinks to web pages, including options that include linking to 3rd party website and opening up new tabs when a link is clicked.
 
@@ -290,7 +290,7 @@ That said, there are some situations when I don't use it.  Typically, when a use
 
 To recap, we use a tag called `<a href>` when we have to include links to a web content.  The most important attribute of this tag is `target`, and you typically use this when you include a link that'll take the user to a different website. However, if they're navigating within the same website, you can skip this option.
 
-##Adding Page Breaks with the Horizontal Rule Tag
+## Adding Page Breaks with the Horizontal Rule Tag
 
 This guide shows you how to add a horizontal rule to a web page that separate page components with a horizontal line.
 
@@ -306,7 +306,7 @@ If you refresh the browser, you can see the horizontal line.
 
 However, this line that comes by default, doesn't look all that great. This is why tools like Bootstrap and Foundation offer different styles.  They may be thicker, have a different color or could have a subtler feel to it. This way you have some more options for designing your web page.
 
-##Integrating Line Breaks into HTML Pages
+## Integrating Line Breaks into HTML Pages
 
 This guide walks through how to use the <br> break tag to add line breaks on a website.
 
@@ -344,7 +344,7 @@ However, it is bad practice to force a line break inside the heading tag. In fac
 
 Personally too, I use `<br>` only rarely because I don't find the need to use it often.
 
-##Creating HTML Numbered Lists
+## Creating HTML Numbered Lists
 
 This guide walks you through how to use the HTML Ordered List tag to create numbered lists on a website.
 
@@ -388,7 +388,7 @@ You can also have nested tags inside your `<li>` tag. Let's say, you want to lin
 
 So, anytime you want to have an ordered list of items, use the tag `<ol>`, and list each element within a nested `<li`> tag.
 
-##Working with Bullet Point Lists in HTML
+## Working with Bullet Point Lists in HTML
 
 Learn how to use HTML bullet points, including tips on how to give your bullets a unique set of styles.
 
@@ -448,7 +448,7 @@ circle - a bullet point that looks like an empty circle. Though it is similar to
 
 So, that's all about the `<ul>` tag.
 
-##Working with Bold HTML Styles
+## Working with Bold HTML Styles
 
 This guide explains how to make text bold by using the <b> and <strong> HTML tags, including walking through when you should choose one tag over the other.
 
@@ -472,7 +472,7 @@ Alternately, you can also use a tag called `<strong>` instead of `<b>`. If you r
 
 Also, the `<strong>` tag is relatively new, so it won't work in browsers that are more than a decade old, like IE 6. So, if you're building for older browsers, always use `<b>` tag.
 
-##Using the Italic Style for Text
+## Using the Italic Style for Text
 
 This guide walks through how to add italics to text components using multiple HTML5 style tag options.
 
@@ -484,7 +484,7 @@ This guide walks through how to add italics to text components using multiple HT
 
 ![](https://s3-us-west-2.amazonaws.com/devcamp-pictures/HTML+CSS+images/italics.png)
 
-##Comprehensive List of HTML Style Tags
+## Comprehensive List of HTML Style Tags
 
 This guide walks through how to use the full list of built in HTML style tags, including tags for showcasing mathematical equations, highlighting text, and many more.
 
@@ -575,7 +575,7 @@ If you're thinking it's easier to use quotes instead of the tag, you're probably
 
 Remember, each of these above styles can be implemented using CSS, and we'll see how to do that later.  For now though, it's good to know the different options you have.
 
-##How to Add Images to Websites
+## How to Add Images to Websites
 
 This guide walks through how to add images to websites with the <img> tag, including an examination of the various style options you can apply to the pictures.
 
@@ -629,7 +629,7 @@ The next option we're going to talk about in this video is the `alt` option. It 
 </div>
 ```
 
-##Mapping Links on Images
+## Mapping Links on Images
 
 This guide walks through how to mapping feature in HTML to place multiple links on an image based on coordinate values.
 
@@ -705,7 +705,7 @@ You can see the circular area it covers.
 
 I think this is really cool, as you can get to three different sites, simply by clicking on three different areas within an image. This can be particularly useful when you can't use JavaScript for a website, and yet you want users to click on images. I had to work on a similar project in the past, where the client's platform would not allow me to use JavaScript. Still, I had to make every item from a product catalog image go to that particular product's URL page. I did this using the `<map>` tag, so it might come handy for you too when you start doing projects like this.
 
-##How to work with Custom Tags in HTML
+## How to work with Custom Tags in HTML
 
 This guide walks through how to use custom HTML tags that will allow for explicitly declaring how your code is organized.
 
@@ -729,7 +729,7 @@ One thing you need to keep in mind here. If you're working for a new client who 
 
 However, this doesn't mean you shouldn't use these tags at all, as many clients, won't bother much about the code as long as the functionality is good. In such cases, these custom tags can give you a nice structure, and can make your code more readable.
 
-##Adding Comments to HTML Code
+## Adding Comments to HTML Code
 
 In this guide you will learn how to use HTML comments to add documentation to your code base.
 
@@ -765,7 +765,7 @@ This doesn't mean comments are bad. In fact, they are a good way to bring attent
 
 In short, use comments sparingly and only in places where it makes sense.
 
-##Guide to Using Web Developer Tools
+## Guide to Using Web Developer Tools
 
 Learn how to analyze code in the browser by leveraging the web developer tools provided by Chrome.
 
@@ -803,7 +803,7 @@ CSS can be confusing to start with. It's best to read it from top to bottom, as 
 
 So, that is an introduction to know how to use web developer tools inside a browser.
 
-##Working with HTML IDs
+## Working with HTML IDs
 
 This guide examines how to set and work with an HTML ID, this is a key concept to learn because IDs will be one of the ways that you can select page elements to apply styles.
 
@@ -829,7 +829,7 @@ These IDs give us a granular level of control, so we can make changes to specifi
 
 So, this is how we can add IDs to HTML elements.
 
-##Working with HTML Classes
+## Working with HTML Classes
 
 This guides explains how to work with HTML classes, which are selector attributes that can be used multiple times on the same page.
 
