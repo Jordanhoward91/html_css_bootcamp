@@ -1,5 +1,29 @@
 # Chapter 1 Guide to HTML
 
+## Contents
+- [Tools We'll Use in the Course](#tools-well-use-in-the-course)
+- [Basic HTML Website Structure](#basic-html-website-structure)
+- [Working with the HTML Head Tag](#working-with-the-html-head-tag)
+- [Creating Page Components with the Div Tag](#creating-page-components-with-the-div-tag)
+- [Implementing Inline Components with the Span Tag](#implementing-inline-components-with-the-span-tag)
+- [Integrate Headings into Web Pages](#integrate-headings-into-web-pages)
+- [Using Multi Line Content with Paragraph Tags](#using-multi-line-content-with-paragraph-tags)
+- [Working with HTML Hyperlinks](#working-with-html-hyperlinks)
+- [Adding Page Breaks with the Horizontal Rule Tag](#adding-page-breaks-with-the-horizontal-rule-tag)
+- [Integrating Line Breaks into HTML Pages](#integrating-line-breaks-into-html-pages)
+- [Creating HTML Numbered Lists](#creating-html-numbered-lists)
+- [Working with Bullet Point Lists in HTML](#working-with-bullet-point-lists-in-html)
+- [Working with Bold HTML Styles](#working-with-bold-html-styles)
+- [Using the Italic Style for Text](#using-the-italic-style-for-text)
+- [Comprehensive List of HTML Style Tags](#comprehensive-list-of-html-style-tags)
+- [How to Add Images to Websites](#how-to-add-images-to-websites)
+- [Mapping Links on Images](#mapping-links-on-images)
+- [How to work with Custom Tags in HTML](#how-to-work-with-custom-tags-in-html)
+- [Adding Comments to HTML Code](#adding-comments-to-html-code)
+- [Guide to Using Web Developer Tools](#guide-to-using-web-developer-tools)
+- [Working with HTML IDs](#working-with-html-ids)
+- [Working with HTML Classes](#working-with-html-classes)
+
 ## Tools We'll Use in the Course
 
 In this guide I walk through the tools that we'll use in this course, including a discussion on what IDEs and Text Editors are best for HTML/CSS Development. I also examine the Espresso editor that I will use for demonstration purposes.
